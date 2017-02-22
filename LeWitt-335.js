@@ -11,17 +11,35 @@ function draw() {
 
 var z = 0
 
+
   
-for (x=0;x<=600;x=x+5){
+for (x=0;x<=600;x=x+10){
   stroke(255);
     line (z,x,width,x);
 
 }
-  ellipseMode (CENTER);
+  rectMode (CENTER);
+
 
   fill(0);
 
-  ellipse(300,200,200,200);{
+
+
+
+
+
+
+
+
+  rect(300,200,200,200);{
     
 }
+  for (y=200;y<=400;y=y+10){
+
+  line(y,100,y,300);
+    
+
+  
+}
+
 }
